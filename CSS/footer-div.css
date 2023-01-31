@@ -1,0 +1,17 @@
+.footer-div {
+  background-color: #66bfbf;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.footer-nav-div > a {
+  color: #11999e;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.footer-div>p{
+    color: #eaf6f6;
+    font-size: 14px;
+}

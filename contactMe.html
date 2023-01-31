@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Mrasheed</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: #e0ebe8;
+      }
+      /* Style the form */
+      form {
+        border: 1px solid #f1f1f1;
+        padding: 20px;
+        width: 500px;
+        margin: 0 auto;
+        margin-top: 75px;
+        background-color: powderblue;
+      }
+
+      /* Style the input fields */
+      input[type="text"],
+      input[type="email"],
+      input[type="password"] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+
+      /* Style the submit button */
+      input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 20px;
+      }
+
+      /* Style the alert message */
+      .alert {
+        padding: 20px;
+        background-color: #f44336;
+        color: white;
+        margin-bottom: 15px;
+      }
+
+      /* Style the close button */
+      .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      /* Style the close button on hover */
+      .closebtn:hover {
+        color: black;
+      }
+    </style>
+
+    <!-- Create the form -->
+    <form
+      action="mailto:mrasheed.fsd@gmail.com"
+      method="post"
+      enctype="text/plain"
+      target="_blank"
+    >
+      <h2>Contact Me</h2>
+      <p>Please fill out this form to get in touch with us:</p>
+      <label for="name">Name</label><br />
+      <input type="text" id="name" name="name" required /><br />
+      <label for="email">Email</label><br />
+      <input type="email" id="email" name="email" required /><br />
+      <label for="message">Message</label><br />
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        cols="30"
+        required
+      ></textarea
+      ><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

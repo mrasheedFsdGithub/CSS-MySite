@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+.first-div {
+  background-color: #eaf6f6;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 60rem;
+  width: 20rem;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+  font-size: 5rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 60rem;
+  width: 15rem;
+}

@@ -1,0 +1,27 @@
+.third-div {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+.skill-div {
+  margin-top: 100px;
+}
+
+.img1 {
+  border-radius: 50%;
+  width: 10rem;
+  float: left;
+  margin-right: 20px;
+}
+
+.img2 {
+  border-radius: 50%;
+  width: 10rem;
+  float: right;
+}
